@@ -1,0 +1,29 @@
+{
+  "name": "nodechat",
+  "version": "1.0.0",
+  "description": "Real time web chat with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bernardxf/nodechat.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Bernard Faria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bernardxf/nodechat/issues"
+  },
+  "homepage": "https://github.com/bernardxf/nodechat",
+  "dependencies": {
+    "express": "latest",
+    "nib": "latest",
+    "pug": "latest",
+    "socket.io": "latest",
+    "stylus": "latest"
+  }
+}

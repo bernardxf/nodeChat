@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+body {
+  background-color: #f5f5f5;
+}
+.content {
+  display: block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  -o-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  width: 600px;
+}
+.content h2 {
+  display: block;
+  font-size: 30px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+.content ul {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  display: block;
+  height: 400px;
+  margin: 0 auto 20px;
+  overflow: scroll;
+  padding: 10px;
+}
+.content ul li {
+  display: block;
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+.content ul li span {
+  display: block;
+  font-weight: bold;
+}
+.content ul li p {
+  color: #333;
+}
+.content .controls {
+  display: block;
+}
+.content .controls div {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+}
+.content .controls div label {
+  display: block;
+  margin: 0 0 5px;
+}
+.content .controls div input[type=text],
+.content .controls div textarea {
+  display: block;
+  border: 1px solid #000;
+  font-size: 12px;
+  padding: 3px;
+  width: 90%;
+}
+.content .controls div button {
+  background-color: #4caf50;
+  border: none;
+  -webkit-box-shadow: 0 5px #999;
+  box-shadow: 0 5px #999;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  outline: none;
+  padding: 5px 10px;
+  text-align: center;
+}
+.content .controls div button:hover {
+  background-color: rgba(51,238,136,0.933) 4;
+}
+.content .controls div button:active {
+  background-color: #3e8e41;
+  -webkit-box-shadow: 0 2px #666;
+  box-shadow: 0 2px #666;
+  -webkit-transform: translateY(3px);
+  -moz-transform: translateY(3px);
+  -o-transform: translateY(3px);
+  -ms-transform: translateY(3px);
+  transform: translateY(3px);
+}
+.content .controls div:last-child {
+  width: 10%;
+}

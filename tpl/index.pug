@@ -1,0 +1,19 @@
+html
+	head
+		title Real time web chat
+		link(rel="stylesheet", type="text/css", href="estilo/main.css")
+		script(src='/chat.js')
+		script(src='/socket.io/socket.io.js')
+	body
+		.content
+			h2 Node Chat
+			ul#chat
+			.controls
+				div
+					label Name: 
+					input#name(type='text', placeholder='Who are you?')
+				div
+					label Message:
+					textarea#message
+				div
+					button#send Send
